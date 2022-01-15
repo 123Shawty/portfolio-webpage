@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="stylesheet" type="text/css" href="templates/style.css"/>
+		<title>Ritwick Portfolio Webpage</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet"> 
+	</head>
+	<body>
+		<nav class="navbar">
+			<ul class="navlist">
+				<div class="logo"><img src="images/clara.png" alt="logo"></div>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#AboutMe">About Me</a></li>
+				<li><a href="#contact">Contact Me</a></li>
+				<li><a href="#everything">My Projects</a></li>
+			</ul>
+			<div class="rightNav">
+				<input type="text" name="search" id="search"></input>
+				<button class="btn btn-sm">Search</button>
+			</div>
+			<div class="burger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+		</nav>
+		<section class="background firstSection" id="AboutMe">
+			<div class="box-main">
+				<div class="firstHalf">
+					<p class="big-text" >ABOUT ME</p>
+					<p class="small-text">Hi my name is Ritwick, im a full stack developer. I would like to become a software engineer in future. Im currently learning about react.js and im fairly good at C++ and a python begginer. not mentioning about my hobbies as others "about me includes", but i would like to say things that i like to do when im bored(literally my hobbies lol): "playing minecraft or watching netflix". Also forgot to mention, I suck at Math</p>
+				</div>
+				<div class="firstImage">
+					<img src="images/clara.png" alt="image">
+				</div>
+		</section>
+
+		<section class="section" id="everything">
+		<div class="paras">
+			<p class="sectionTag big-text" id="my-projects">WEBSITE INFO</p>
+			<p class="sectionSubtag small-text">This Website is purely made by me and only uses HTML and CSS. Im not good at web development but hey!!! i tried so hard. website's source code in my github repository.</p>
+		</div>
+			<div class="thumbnail">
+				<img class="imgFluid" src="https://source.unsplash.com/800x800/?webdevelopment" alt="image">
+			</div>
+		</section>
+		<section class="section left">
+		<div class="paras">
+			<p class="sectionTag big-text">MY PROJECTS</p>
+			<p class="sectionSubtag small-text">These are my projects listed below.</p>
+		</div>
+			<div class="thumbnail">
+				<img class="imgFluid" src="https://source.unsplash.com/800x800/?projects" alt="image">
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<h2 class="text-center">Contact Me</h2>
+			<div class="form">
+				<input type="text" name="name" id="name" placeholder="enter your name">
+				<input type="text" name="phone" id="phone" placeholder="enter your phone number">
+				<input type="email" name="email" id="email" placeholder="enter your email">
+				<textarea class="textarea1" name="text" id="text" cols="30" placeholder="Tell me all :)"></textarea>
+				<button class="btn">SUBMIT</button>
+			</div>
+			<br>
+		</section>
+		<footer>
+			<p class="text-footer background">
+			Copyright &copy; 2022 - All rights reserved 
+			<br>
+			Made by Ritwick
+			</p>
+		</footer>
+    <script src="script.js"></script>
+	</body>
+</html>
